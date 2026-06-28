@@ -9,5 +9,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/((?!.*\\.txt$).*)",
+      "destination": "http://localhost:4200/$1",
+      "permanent": false
+    }
   ]
 }
